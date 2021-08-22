@@ -1,0 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+<html>
+<head>
+<title>Bipeen Acharya</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+				<div class="col-md-8 header-right">
+					<h1>Bipeen Acharya</h1>
+					<h4>Software Engineer</h4>
+					<h4>Master's in Engineering, Computer and Information Science</h4>
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
